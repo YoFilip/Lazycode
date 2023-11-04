@@ -1,0 +1,20 @@
+/* Scrollbar styles */
+
+::-webkit-scrollbar {
+	width: 1rem;
+	overflow-x: none;
+	height: 100%;
+}
+
+::-webkit-scrollbar-track {
+	background: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+	background: -webkit-linear-gradient(
+		to right,
+		rgb(19, 87, 223),
+		rgb(19, 87, 223)
+	);
+	background: linear-gradient(to right, rgb(19, 87, 223), rgb(19, 87, 223));
+}
